@@ -13,7 +13,8 @@ ul li {
   margin-bottom: 25px; }
 
 .view {
-  width: 365px;
+  width: 90%;
+  max-width: 400px;
   float: center;
   overflow: hidden;
   text-align: center;
