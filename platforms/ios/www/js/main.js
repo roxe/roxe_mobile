@@ -1,7 +1,7 @@
 
 $(function () {
   $('.file-input').fileupload({
-      url: "http://www.roxlr.com/image_upload",
+      url: "http://www.roxlr.com:9293/image_upload",
       dataType: 'json',
       beforeSend: function () {
 	 $("#ajaxSpinnerContainer").show();
