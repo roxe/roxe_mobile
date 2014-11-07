@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,400italic,700,700italic,900,900italic,300,100italic,100);
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic);
+body {
+  font-family: "Lato", sans-serif; }
+
+ul {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  padding-left: 6px; }
+
+ul li {
+  list-style: none;
+  margin-bottom: 25px; }
+
+.view {
+  width: 365px;
+  float: center;
+  overflow: hidden;
+  text-align: center;
+  cursor: default; }
+
+.timeSince {
+  letter-spacing: 1px;
+  font-size: 14px;
+  cursor: pointer;
+  color: #9B9494;
+  padding-bottom: 10px; }
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-right: 4px; }
+  .fileinput-button input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    direction: ltr;
+    cursor: pointer; }
+
+.spinner {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  float: left; }
