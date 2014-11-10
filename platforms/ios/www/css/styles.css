@@ -4,17 +4,16 @@ body {
   font-family: "Lato", sans-serif; }
 
 ul {
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-  padding-left: 6px; }
+  margin: 0 auto;
+}
 
 ul li {
   list-style: none;
   margin-bottom: 25px; }
 
 .view {
-  width: 365px;
-  float: center;
+  width: 90%;
+  marign: 0 auto;
   overflow: hidden;
   text-align: center;
   cursor: default; }

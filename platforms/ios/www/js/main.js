@@ -20,7 +20,7 @@ var renderHome = function() {
           return timeSince(this.created_at * 1000);
         });
         $.getJSON("http://www.roxlr.com:9293/imgs", function(data) {
-                var template = "<ul class='row' style='width:340px;'>{{#.}}<li><span class='timeSince glyphicon glyphicon-time' style='float:right;'>{{#noop}}{{created_at}}{{/noop}}</span><div class='view'><img class='img-responsive' src='http://www.roxlr.com:9293/uploads/{{account_id}}/{{photo_id}}.l.jpg'>" +
+                var template = "<ul class='row' style=''>{{#.}}<li style=''><span class='timeSince glyphicon glyphicon-time' style='float:right;'>{{#noop}}{{created_at}}{{/noop}}</span><div class='view'><img class='img-responsive' src='http://www.roxlr.com:9293/uploads/{{account_id}}/{{photo_id}}.l.jpg'>" +
                                "</div><span class='glyphicon glyphicon-search'></span>{{/.}}</ul>";
                 var template = Handlebars.compile(template);
                 var html = template(data);
