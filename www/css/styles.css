@@ -5,6 +5,7 @@ body {
 
 ul {
   margin: 0 auto;
+  padding: 0 0 0 0;
 }
 
 ul li {
@@ -12,10 +13,9 @@ ul li {
   margin-bottom: 25px; }
 
 .view {
-  width: 90%;
+  width: 100%;
   marign: 0 auto;
   overflow: hidden;
-  text-align: center;
   cursor: default; }
 
 .timeSince {
@@ -24,6 +24,10 @@ ul li {
   cursor: pointer;
   color: #9B9494;
   padding-bottom: 10px; }
+
+#content {
+  float: left;
+}
 
 .fileinput-button {
   position: relative;
